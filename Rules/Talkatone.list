@@ -1,0 +1,33 @@
+// ✨━━━━━━━━━━━━━━━━━━━━━━━Talkatone专项分流规则━━━━━━━━━━━━━━━━━━━━━━━✨
+// 作者：喵大人
+// 辅助：Gemini & DeepSeek
+// 更新：
+// 2026年1月9日————创建文件，针对Talkatone建立专项分流规则
+// 2026年1月31日————优化代码界面，逐行注释域名含义
+// ✨━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━✨
+
+// Talkatone 主域名及 API 服务
+HOST-SUFFIX,talkatone.com,Talkatone
+
+// Talkatone 短链接与备用 API
+HOST-SUFFIX,tktn.at,Talkatone
+
+// Talkatone 区域节点 API
+HOST-SUFFIX,tktn.be,Talkatone
+
+// 关键字兜底匹配
+HOST-KEYWORD,talkatone,Talkatone
+
+// 核心语音服务器 IP 段 (VoIP 数据传输)
+IP-CIDR,50.117.27.0/24,Talkatone,no-resolve
+IP-CIDR,69.46.75.0/24,Talkatone,no-resolve
+IP-CIDR,205.164.56.0/24,Talkatone,no-resolve
+IP-CIDR,63.251.124.0/24,Talkatone,no-resolve
+
+// 亚马逊 IP 检测服务，Talkatone 用其校验用户是否在支持的地区
+HOST,checkip.amazonaws.com,Talkatone
+
+// Tenor GIF 动图库，用于聊天时加载动图
+HOST-SUFFIX,tenor.com,Talkatone
+
+// ✨━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━✨
