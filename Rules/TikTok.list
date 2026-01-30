@@ -1,1 +1,114 @@
+// 🎶━━━━━━━━━━━━━━━━━━━━━━━━━━ X专项分流规则 ━━━━━━━━━━━━━━━━━━━━━━━━━━🎶
+// 作者：喵大人
+// 辅助：Gemini & DeepSeek
+// 更新：
+// 2025年12月29日————创建文件，针对X建立专项分流规则
+// 2026年1月21日————反复抓包测试并优化
+// 2026年1月31日————优化代码界面，逐行注释域名含义
+// 🎶━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━🎶
 
+//TikTok分流规则
+//2025年12月29日————创建分流规则
+//...
+// 规则文件头部注释，说明这是TikTok分流规则，创建于2025年12月29日
+
+// 精确匹配特定CDN服务器，处理特效和渲染相关数据
+HOST,lf16-effectcdn.byteeffecttos-g.com,TikTok
+
+// 精确匹配特定CDN节点，处理TikTok视频内容分发
+HOST,p16-tiktokcdn-com.akamaized.net,TikTok
+
+// 精确匹配特定CDN服务器，处理AI相关功能和数据包
+HOST,lf16-pkgcdn.pitaya-clientai.com,TikTok
+
+// 精确匹配TikTok API服务器，处理东南亚地区API请求
+HOST,api22-normal-c-alisg.tiktokv.com,TikTok
+
+// 精确匹配追踪分析API服务器，处理用户行为分析数据
+HOST,trae-api-sg.mchost.guru,TikTok
+
+// 后缀匹配字节跳动应用性能监控服务，收集应用性能数据
+HOST-SUFFIX,bytedapm.com,TikTok
+
+// 后缀匹配字节跳动国际化多语言服务，处理多语言内容
+HOST-SUFFIX,bytegecko-i18n.com,TikTok
+
+// 后缀匹配字节跳动国际化API服务，处理国际版API请求
+HOST-SUFFIX,byteintlapi.com,TikTok
+
+// 后缀匹配字节跳动海外服务，处理海外业务相关功能
+HOST-SUFFIX,byteoversea.com,TikTok
+
+// 后缀匹配字节跳动旗下视频编辑应用CapCut（剪映国际版）
+HOST-SUFFIX,capcut.com,TikTok
+
+// 后缀匹配字节跳动数据服务，处理用户数据和内容分发
+HOST-SUFFIX,ibytedtos.com,TikTok
+
+// 后缀匹配字节跳动图片CDN服务，处理图片内容分发
+HOST-SUFFIX,ibyteimg.com,TikTok
+
+// 后缀匹配字节跳动统计服务，收集应用使用统计信息
+HOST-SUFFIX,ipstatp.com,TikTok
+
+// 后缀匹配字节跳动软件开发工具包相关服务
+HOST-SUFFIX,isnssdk.com,TikTok
+
+// 后缀匹配字节跳动代码相关服务（可能用于代码管理或部署）
+HOST-SUFFIX,marscode.com,TikTok
+
+// 后缀匹配TikTok音乐CDN服务，处理音乐内容分发
+HOST-SUFFIX,muscdn.com,TikTok
+
+// 后缀匹配TikTok前身Musical.ly品牌域名
+HOST-SUFFIX,musical.ly,TikTok
+
+// 后缀匹配字节跳动新加坡统计服务，收集区域统计信息
+HOST-SUFFIX,sgpstatp.com,TikTok
+
+// 后缀匹配字节跳动短视频SDK相关服务
+HOST-SUFFIX,snssdk.com,TikTok
+
+// 后缀匹配TikTok API服务，处理应用接口请求
+HOST-SUFFIX,tik-tokapi.com,TikTok
+
+// 后缀匹配TikTok主域名，访问应用主网站
+HOST-SUFFIX,tiktok.com,TikTok
+
+// 后缀匹配TikTok美国CDN服务，处理美国地区内容分发
+HOST-SUFFIX,tiktokcdn-us.com,TikTok
+
+// 后缀匹配TikTok全球CDN服务，处理全球内容分发
+HOST-SUFFIX,tiktokcdn.com,TikTok
+
+// 后缀匹配TikTok数据相关服务（可能用于数据处理或存储）
+HOST-SUFFIX,tiktokd.net,TikTok
+
+// 后缀匹配TikTok数据相关服务（可能用于数据处理或存储）
+HOST-SUFFIX,tiktokd.org,TikTok
+
+// 后缀匹配TikTok音乐应用，访问独立音乐应用服务
+HOST-SUFFIX,tiktokmusic.app,TikTok
+
+// 后缀匹配TikTok视频服务，处理视频相关功能
+HOST-SUFFIX,tiktokv.com,TikTok
+
+// 后缀匹配TikTok美国视频服务，处理美国地区视频功能
+HOST-SUFFIX,tiktokv.us,TikTok
+
+// 后缀匹配追踪分析服务，处理用户行为追踪和分析
+HOST-SUFFIX,trae.ai,TikTok
+
+// 后缀匹配TikTok网页视图服务，处理应用内网页浏览功能
+HOST-SUFFIX,ttwebview.com,TikTok
+
+// 关键字匹配包含"musical.ly"的任意域名，覆盖TikTok前身品牌相关服务
+HOST-KEYWORD,musical.ly,TikTok
+
+// 关键字匹配包含"tiktok"的任意域名，作为兜底规则覆盖所有TikTok相关域名
+HOST-KEYWORD,tiktok,TikTok
+
+// 用户代理匹配以"TikTok"开头的User-Agent，覆盖TikTok应用的所有请求
+USER-AGENT,TikTok*,TikTok
+
+// 🎶━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━🎶
