@@ -7,26 +7,26 @@
 // 2026年1月31日————优化代码界面，逐行注释域名含义
 // 🐯━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━🐯
 
+// 授权认证服务器，用于用户登录和身份验证，同时也是应用判断用户所在地区以提供相应行情服务的关键地址
 //HOST, oauth1.skytigris.cn, Tiger
 //（这一条是老虎证券判断行情地区的关键地址）
-// 授权认证服务器，用于用户登录和身份验证，同时也是应用判断用户所在地区以提供相应行情服务的关键地址
 
-// HOST, api2.skytigris.cn,Tiger
 // 老虎证券的主要API接口服务器，处理股票交易、账户查询等核心业务逻辑
+// HOST, api2.skytigris.cn,Tiger
 
-// HOST, ms.tigerfintech.com,Tiger
 // 消息推送和实时通知服务器，用于向客户端推送股价变动、交易确认等实时信息
+// HOST, ms.tigerfintech.com,Tiger
 
-// HOST, mnt-report.skytigris.cn,Tiger
 // 监控和报告服务器，收集应用运行数据、性能指标和错误日志用于分析
+// HOST, mnt-report.skytigris.cn,Tiger
 
-// HOST, geo.skytigris.cn,Tiger
 // 地理位置服务，用于确定用户的实际位置，可能影响可交易品种和合规要求
+// HOST, geo.skytigris.cn,Tiger
 
-// HOST, hq.skytigris.cn,Tiger
 // 行情数据主服务器，提供股票、期货等金融产品的实时报价和市场数据
+// HOST, hq.skytigris.cn,Tiger
 
-// HOST, hq2.skytigris.cn,Tiger
 // 行情数据备用服务器，在主服务器不可用时提供冗余的行情数据服务
+// HOST, hq2.skytigris.cn,Tiger
 
 // 🐯━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━🐯
