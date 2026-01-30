@@ -1,0 +1,69 @@
+// ✨━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━✨
+// 作者：喵大人
+// 辅助：Monica & Gemini 3 Flash
+// 说明：Binance规则集
+// 
+// 2026年1月31日————创建文件，针对Binance建立专项分流规则
+// 
+// 主交易平台：binance.com（核心）
+// 区块链生态：binance.org, binance.cloud
+// 期货交易：binancefuture.com
+// 资讯教育：binance.info, bnbzh.ac
+// 静态资源：bnbstatic.com
+// 移动应用：bnappzh.co, appsflayer.com
+// 备用入口：binance.me, binance.im, binance.cc
+// 企业服务：saasexch.com, saasexch.cc
+// 辅助服务：binancecnt.com, bntrace.com
+// ✨━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━✨
+
+
+
+// ✨━━━━━━━━━━━━━━━━━━━━━━━━Binance专项分流规则━━━━━━━━━━━━━━━━━━━━━━━━✨
+
+// 移动应用分析和归因服务平台
+HOST-SUFFIX,appsflayer.com,Binance
+
+// 资讯和公告发布平台
+HOST-SUFFIX,binance.info,Binance
+
+// 区块链基础设施云服务平台
+HOST-SUFFIX,binance.cloud,Binance
+
+// 加密货币交易所主平台
+HOST-SUFFIX,binance.com,Binance
+
+// 区块链生态系统和去中心化服务
+HOST-SUFFIX,binance.org,Binance
+
+// 备用访问域名（黑山国家域名）
+HOST-SUFFIX,binance.me,Binance
+
+// 备用访问域名（马恩岛国家域名）
+HOST-SUFFIX,binance.im,Binance
+
+// 备用访问域名（科科斯群岛国家域名）
+HOST-SUFFIX,binance.cc,Binance
+
+// 客户服务和内容支持相关服务
+HOST-SUFFIX,binancecnt.com,Binance
+
+// 期货合约交易专用平台
+HOST-SUFFIX,binancefuture.com,Binance
+
+// 中文移动应用相关服务
+HOST-SUFFIX,bnappzh.co,Binance
+
+// 静态资源内容分发网络
+HOST-SUFFIX,bnbstatic.com,Binance
+
+// 教育和学术内容平台
+HOST-SUFFIX,bnbzh.ac,Binance
+
+// 数据追踪和分析服务
+HOST-SUFFIX,bntrace.com,Binance
+
+// 软件即服务交易解决方案（备用域名）
+HOST-SUFFIX,saasexch.cc,Binance
+
+// 软件即服务交易解决方案（主域名）
+HOST-SUFFIX,saasexch.com,Binance
