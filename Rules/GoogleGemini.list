@@ -10,55 +10,60 @@
 // 参考：Gemini & DeepSeek & 抓包
 
 // 更新：
-// 2026年1月20日————创建文件，针对GoogleVoice建立专项分流规则
+// 2026年1月20日————创建文件，针对性建立专项分流规则
 // 2026年1月31日————优化代码界面，逐行注释域名含义
+// 2026年2月1日————
 
 
 // 👤························ [ Gemini AI ] ··························👤
 
-// 【Gemini 主域名】用于访问 Gemini 网页对话界面的主域名。
+// 【Gemini 主域名】访问 Gemini 网页聊天界面的主要入口。
 host-suffix, gemini.google.com, GoogleGemini
 
-// 【Bard 遗留域名】早期 Bard 服务的遗留域名，部分情况下用于重定向到 Gemini。
+// 【Bard 遗留域名】旧版 Bard 服务的域名，现通常重定向至 Gemini。
 host-suffix, bard.google.com, GoogleGemini
 
-// 【Google AI 开发者平台与 API 域名】用于访问 Google AI 开发者平台和 API 的相关域名，支持生成式语言功能。
+// 【AI 开发者平台】Google AI 开发者平台（ai.google.dev）的官方域名。
 host-suffix, ai.google.dev, GoogleGemini
+
+// 【生成式 AI 服务】Generative AI 服务（generativeai.google）的访问域名。
 host-suffix, generativeai.google, GoogleGemini
+
+// 【生成式语言关键词】包含 generativelanguage 关键词的域名，用于相关 API 服务。
 host-keyword, generativelanguage, GoogleGemini
 
-// 【DeepMind 实验室】与 DeepMind 实验室相关的域名，用于研究和开发。
+// 【DeepMind 主站】DeepMind 实验室官方网站（deepmind.com）。
 host-suffix, deepmind.com, GoogleGemini
+
+// 【DeepMind Google 域】DeepMind 在 Google 域名下的官方站点（deepmind.google）。
 host-suffix, deepmind.google, GoogleGemini
 
 // 👤·························· [ 多模态 ] ···························👤
 
-// 【Gemini 多模态图片上传与实时通信分组】此分组包含确保 Gemini 多模态功能中图片上传和实时通信正常的域名，解决上传转圈和报错问题。
-
-// 【图片上传核心域名】关键域名，用于解决图片上传时的转圈和 App-analytics-services 报错问题。
+// 【图片上传推送】关键推送域名，解决 Gemini 图片上传转圈或报错问题。
 host, push.clients6.google.com, GoogleGemini
+
+// 【MakerSuite 客户端】MakerSuite 特定客户端通信域名，辅助多模态功能。
 host, alkalimakersuite-pa.clients6.google.com, GoogleGemini
 
-// 【clients6 子域名兜底】覆盖所有 clients6 相关子域名，确保多模态功能正常工作。
+// 【clients6 兜底】覆盖所有 clients6.google.com 子域名，确保实时通信正常。
 host-suffix, clients6.google.com, GoogleGemini
 
-// 【Gemini 后端接口】用于 Gemini 后端逻辑和上下文同步的接口域名。
+// 【后端同步接口】Gemini 后端逻辑与上下文同步的 API 接口域名。
 host-suffix, proactivebackend-pa.googleapis.com, GoogleGemini
 
-// 【Gemini 多模态视频生成与大文件下载分组】此分组包含确保 Gemini 多模态功能中视频生成和大文件下载正常的域名，解决视频加载和下载失败问题。
-
-// 【视频生成核心域名】核心域名，用于解决生成视频无法加载、黑屏和下载失败的问题。
+// 【视频生成核心】核心内容域名，解决视频生成黑屏、加载或下载失败问题。
 host, contribution.usercontent.google.com, GoogleGemini
 
-// 【Google 内容分发节点】用于视频流传输的核心内容分发节点域名。
+// 【内容分发节点】Google 内容分发网络（CDN），用于视频流等大文件传输。
 host-suffix, usercontent.google.com, GoogleGemini
 
 // 🧱··························· [ 其他 ] ·····························🧱
 
-// 【Google Colab 域名】用于访问 Google Colab 代码环境的域名。
+// 【Colab 关键词】包含 colab 关键词的域名，用于访问 Google Colab 代码环境。
 host-keyword, colab, GoogleGemini
 
-// 【AI 提示词工作室域名】用于访问 AI 提示词工作室（MakerSuite）的域名。
+// 【MakerSuite 主站】AI 提示词工作室（MakerSuite）的官方网站。
 host-suffix, makersuite.google.com, GoogleGemini
 
 // 📱━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━📱
