@@ -1,1 +1,113 @@
+// 👻━━━━━━━━━━━━━━━━━━━━━ Telegram专项分流规则 ━━━━━━━━━━━━━━━━━━━━━━━👻
 
+//              ⋆｡˚         ⋆ 
+//          .        /\_/\      ˚✧
+//               ~~~( •₋• )~~~ 
+//         ⋆      ฅ/  By  \ฅ    ˚
+//                 · 喵大人 ·       ⋆
+//            ˚✧       ⋆      ○
+
+// 参考：Gemini & DeepSeek & 抓包
+
+// 更新：
+// 2026年2月1日————创建文件，针对性建立专项分流规则
+// 2026年2月1日————优化代码界面，逐行注释域名含义
+// 
+
+// 👻·································································👻
+
+// Telegram第三方客户端API域名
+HOST,api.imem.app,Telegram
+
+// Telegram第三方客户端API域名
+HOST,api.swiftgram.app,Telegram
+
+// Telegram CDN内容分发网络域名
+HOST-SUFFIX,cdn-telegram.org,Telegram
+
+// Telegram评论服务
+HOST-SUFFIX,comments.app,Telegram
+
+// Telegram相关竞赛服务
+HOST-SUFFIX,contest.com,Telegram
+
+// Telegraph服务（Telegram的博客平台）
+HOST-SUFFIX,graph.org,Telegram
+
+// Telegraph服务的替代域名
+HOST-SUFFIX,legra.ph,Telegram
+
+// Telegram相关应用
+HOST-SUFFIX,mbrx.app,Telegram
+
+// Telegram测验服务
+HOST-SUFFIX,quiz.directory,Telegram
+
+// Telegram相关服务
+HOST-SUFFIX,stel.com,Telegram
+
+// Telegram官方短链接域名
+HOST-SUFFIX,t.me,Telegram
+
+// Telegram桌面版相关域名
+HOST-SUFFIX,tdesktop.com,Telegram
+
+// Telegram相关服务
+HOST-SUFFIX,telega.one,Telegram
+
+// Telegraph服务主域名
+HOST-SUFFIX,telegra.ph,Telegram
+
+// Telegram内容分发网络
+HOST-SUFFIX,telegram-cdn.org,Telegram
+
+// Telegram官方域名（替代）
+HOST-SUFFIX,telegram.dog,Telegram
+
+// Telegram官方域名
+HOST-SUFFIX,telegram.me,Telegram
+
+// Telegram官方网站
+HOST-SUFFIX,telegram.org,Telegram
+
+// Telegram相关服务
+HOST-SUFFIX,telegram.space,Telegram
+
+// Telegram下载服务
+HOST-SUFFIX,telegramdownload.com,Telegram
+
+// Telegram视频频道服务
+HOST-SUFFIX,telesco.pe,Telegram
+
+// Telegram开发相关服务
+HOST-SUFFIX,tg.dev,Telegram
+
+// Telegram短链接服务
+HOST-SUFFIX,tx.me,Telegram
+
+// Telegram用户内容服务
+HOST-SUFFIX,usercontent.dev,Telegram
+
+// 匹配所有包含"nicegram"的域名（第三方Telegram客户端）
+HOST-KEYWORD,nicegram,Telegram
+
+// Telegram服务器IP地址段
+IP-CIDR,109.239.140.0/24,Telegram
+IP-CIDR,139.59.210.98/32,Telegram
+IP-CIDR,149.154.160.0/20,Telegram
+IP-CIDR,196.55.216.167/32,Telegram
+IP-CIDR,5.28.192.0/18,Telegram
+IP-CIDR,91.108.0.0/16,Telegram
+IP6-CIDR,2001:67c:4e8::/48,Telegram
+IP6-CIDR,2001:b28:f23c::/47,Telegram
+IP6-CIDR,2001:b28:f23f::/48,Telegram
+IP6-CIDR,2a0a:f280::/29,Telegram
+
+// 匹配Telegram网络的所有IP地址（DigitalOcean，Telegram使用的托管服务）
+IP-ASN,211157,Telegram
+IP-ASN,44907,Telegram
+IP-ASN,59930,Telegram
+IP-ASN,62014,Telegram
+IP-ASN,62041,Telegram
+
+// 👻━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━👻
