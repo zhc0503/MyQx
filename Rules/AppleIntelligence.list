@@ -1,1 +1,31 @@
+// 👻━━━━━━━━━━━━━━━━━ AppleIntelligence专项分流规则 ━━━━━━━━━━━━━━━━━👻
 
+//              ⋆｡˚         ⋆ 
+//          .        /\_/\      ˚✧
+//               ~~~( •₋• )~~~ 
+//         ⋆      ฅ/  By  \ฅ    ˚
+//                 · 喵大人 ·       ⋆
+//            ˚✧       ⋆      ○
+
+// 参考：Gemini & DeepSeek & 抓包
+
+// 更新：
+// 2026年2月6日————新建专项分流规则
+// 2026年1月31日————优化代码界面，逐行注释域名含义
+// 2026年2月6日————
+
+// 👻·························· [ 核心 ] ·····························👻
+
+HOST-SUFFIX,gateway.icloud.com, AppleIntelligence  # iCloud网关服务，可能用于Apple AI相关服务的数据传输
+HOST-SUFFIX,apps.mzstatic.com, AppleIntelligence   # 苹果应用静态资源CDN，可能承载AI应用相关资源
+HOST-SUFFIX,apple-relay.apple.com, AppleIntelligence   # 苹果中继服务，可能用于AI服务的请求转发
+HOST-SUFFIX,apple-relay.fastly-edge.com, AppleIntelligence  # 通过Fastly CDN的苹果中继服务，优化AI服务访问
+HOST-SUFFIX,apple-relay.cloudflare.com, AppleIntelligence   # 通过Cloudflare的苹果中继服务，增强AI服务稳定性
+HOST-SUFFIX,apple-relay.akamaized.net, AppleIntelligence   # 通过Akamai CDN的苹果中继服务，加速AI内容分发
+HOST-SUFFIX,apple-relay.mask.apple-dns.net, AppleIntelligence   # 苹果DNS掩码中继服务，可能用于AI服务的DNS解析
+HOST-SUFFIX,guzzoni.apple.com, AppleIntelligence   # 苹果早期语音助手Guzzoni相关域名，现在可能用于AI服务
+HOST-SUFFIX,cp4.cloudflare.com, AppleIntelligence  # Cloudflare CDN节点，可能承载苹果AI服务流量
+HOST-SUFFIX,gspe1-ssl.ls.apple.com, AppleIntelligence  # 苹果搜索建议服务，可能涉及AI搜索功能
+HOST-SUFFIX,smoot.apple.com, AppleIntelligence # 苹果SMOOT服务，可能与AI模型优化或传输相关
+
+// 👻━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━👻
