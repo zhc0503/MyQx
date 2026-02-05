@@ -1,1 +1,172 @@
+// 🃏━━━━━━━━━━━━━━━━━━━━━━━ WhatsApp专项分流规则 ━━━━━━━━━━━━━━━━━━━━━━🃏
 
+//              ⋆｡˚         ⋆ 
+//          .        /\_/\      ˚✧
+//               ~~~( •₋• )~~~ 
+//         ⋆      ฅ/  By  \ฅ    ˚
+//                 · 喵大人 ·       ⋆
+//            ˚✧       ⋆      ○
+
+// 参考：Gemini & DeepSeek & 抓包
+
+// 更新：
+// 2026年2月5日————创建专项分流规则
+// 2026年2月5日优化代码界面，逐行注释域名含义
+// 2026年2月1日————
+
+// 🃏·························· [ 核心 ] ·····························🃏
+
+// WhatsApp主域名
+HOST-SUFFIX,whatsapp.com,WhatsApp
+
+// WhatsApp网络域名
+HOST-SUFFIX,whatsapp.net,WhatsApp
+
+// WhatsApp官方短链接
+HOST-SUFFIX,wa.me,WhatsApp
+
+// WhatsApp状态服务
+HOST-SUFFIX,whatsappstatus.com,WhatsApp
+
+// WhatsApp业务平台
+HOST-SUFFIX,whatsappbusiness.com,WhatsApp
+
+// WhatsApp业务API
+HOST-SUFFIX,whatsappbusiness.net,WhatsApp
+
+
+// 🃏·························· [ 媒体与文件传输 ] ·····························🃏
+
+// 媒体文件域名
+HOST-SUFFIX,mmg-fna.whatsapp.net,WhatsApp
+
+// 媒体文件域名（备用）
+HOST-SUFFIX,mmi-fna.whatsapp.net,WhatsApp
+
+// 媒体文件下载
+HOST-SUFFIX,mms-fna.whatsapp.net,WhatsApp
+
+// 媒体内容分发
+HOST-SUFFIX,media.fna.whatsapp.net,WhatsApp
+
+// 视频媒体文件
+HOST-SUFFIX,video.fna.whatsapp.net,WhatsApp
+
+// 文件传输服务
+HOST-SUFFIX,docs.fna.whatsapp.net,WhatsApp
+
+// 语音消息服务
+HOST-SUFFIX,voice.fna.whatsapp.net,WhatsApp
+
+
+// 🃏·························· [ 语音与视频通话 ] ·····························🃏
+
+// 语音通话服务
+HOST-SUFFIX,voip.whatsapp.com,WhatsApp
+
+// 语音通话网络服务
+HOST-SUFFIX,v.whatsapp.net,WhatsApp
+
+// 视频通话信令
+HOST-SUFFIX,call.whatsapp.net,WhatsApp
+
+// 通话中继服务
+HOST-SUFFIX,br-edge.whatsapp.net,WhatsApp
+
+
+// 🃏·························· [ 消息传递与同步 ] ·····························🃏
+
+// 消息传递服务
+HOST-SUFFIX,gateway.whatsapp.net,WhatsApp
+
+// 消息同步服务
+HOST-SUFFIX,chat.whatsapp.com,WhatsApp
+
+// 消息推送服务
+HOST-SUFFIX,p.whatsapp.net,WhatsApp
+
+// 消息存储服务
+HOST-SUFFIX,storage.fna.whatsapp.net,WhatsApp
+
+
+// 🃏·························· [ 更新与状态服务 ] ·····························🃏
+
+// 应用更新服务
+HOST-SUFFIX,updates.whatsapp.net,WhatsApp
+
+// 状态更新服务
+HOST-SUFFIX,status.whatsapp.net,WhatsApp
+
+// 连接状态检查
+HOST-SUFFIX,connectivitycheck.whatsapp.net,WhatsApp
+
+// 网络质量检测
+HOST-SUFFIX,net.whatsapp.net,WhatsApp
+
+
+// 🃏·························· [ 安全与验证服务 ] ·····························🃏
+
+// 安全验证服务
+HOST-SUFFIX,security.whatsapp.net,WhatsApp
+
+// 加密服务
+HOST-SUFFIX,enc.whatsapp.net,WhatsApp
+
+// 验证码服务
+HOST-SUFFIX,code.whatsapp.net,WhatsApp
+
+// 证书验证服务
+HOST-SUFFIX,crl.whatsapp.net,WhatsApp
+
+
+// 🃏·························· [ Web与桌面客户端 ] ·····························🃏
+
+// Web客户端服务
+HOST-SUFFIX,web.whatsapp.com,WhatsApp
+
+// 桌面客户端更新
+HOST-SUFFIX,desktop-updates.whatsapp.net,WhatsApp
+
+
+// 🃏·························· [ 第三方服务集成 ] ·····························🃏
+
+// Facebook CDN服务
+HOST-SUFFIX,fna.whatsapp.net,WhatsApp
+
+// 内容分发网络
+HOST-SUFFIX,cdn.whatsapp.net,WhatsApp
+
+// 统计分析服务
+HOST-SUFFIX,analytics.whatsapp.net,WhatsApp
+
+
+// 🃏·························· [ 企业版服务 ] ·····························🃏
+
+// WhatsApp Business API
+HOST-SUFFIX,waba.whatsapp.net,WhatsApp
+
+// 企业版媒体服务
+HOST-SUFFIX,media-mia-1.fna.whatsapp.net,WhatsApp
+
+// 企业版文件服务
+HOST-SUFFIX,docs-mia-1.fna.whatsapp.net,WhatsApp
+
+
+// 🃏·························· [ 关键词匹配规则 ] ·····························🃏
+
+// 包含whatsapp关键词的域名
+HOST-KEYWORD,whatsapp,WhatsApp
+
+
+// 🃏·························· [ IP地址规则 ] ·····························🃏
+
+// WhatsApp相关IP段（示例，实际使用需更新）
+IP-CIDR,18.66.0.0/16,WhatsApp
+
+// WhatsApp相关IP段（示例，实际使用需更新）
+IP-CIDR,18.67.0.0/16,WhatsApp
+
+// WhatsApp相关IP段（示例，实际使用需更新）
+IP-CIDR,157.240.0.0/16,WhatsApp
+
+// 🃏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━🃏
