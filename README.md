@@ -14,9 +14,9 @@ MyQx：【基础版/共享】————仅有【AI分流规则】与【基础�
 
 MyQxPro：【专业版/共享】————比【基础版】增加个性化的应用分流，及私人广告规则，后期考虑增加进阶功能  
 
-MyQxProMax：【极客版/私人】————拥有最全的注释，核心代码定期更新到【专业版】中  
+MyQxProMax：【极客版/私人/HK】————拥有最全的注释，核心代码定期更新到【专业版】中  
 
-MyQxSpecialEdition：【特别版/私人】————在ProMax的基础上，增加Google系的全面代理  
+MyQxSpecialEdition：【特别版/私人/CN】————在ProMax的基础上，增加Google系的全面代理  
 
 
 
