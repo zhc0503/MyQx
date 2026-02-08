@@ -29,7 +29,7 @@ HOST-SUFFIX,dev.twitter.com,TwitterX
 // X (Twitter) 状态页面
 HOST-SUFFIX,status.twitter.com,TwitterX
 // X 短链接服务
-HOST-SUFFIX, t.co,TwitterX
+HOST-SUFFIX,t.co,TwitterX
 
 
 // 🔭·························· [ API ] ·····························🔭
