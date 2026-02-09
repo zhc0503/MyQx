@@ -1,1 +1,21 @@
+# > Polymarket 分流规则 (适用于 Quantumult X)
+# > 策略组：Polymarket
+# > 建议搭配日本、韩国或英国等支持地区的节点
 
+# --- 官方主域与 API ---
+HOST-SUFFIX, polymarket.com, Polymarket
+HOST-SUFFIX, polymarket.market, Polymarket
+
+# --- 核心交易服务 (CLOB) ---
+HOST, gamma-api.polymarket.com, Polymarket
+HOST, clob.polymarket.com, Polymarket
+HOST, notifications.polymarket.com, Polymarket
+
+# --- Web3 & 登录基础设施 ---
+# Polymarket 常用 Magic.link 进行邮箱登录鉴权
+HOST-SUFFIX, magic.link, Polymarket
+# 底层 API 关键词匹配
+HOST-KEYWORD, polymarket-api, Polymarket
+
+# --- 关键词匹配 (增强覆盖) ---
+HOST-KEYWORD, polymarket, Polymarket
