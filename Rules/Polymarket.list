@@ -1,21 +1,37 @@
-# > Polymarket 分流规则 (适用于 Quantumult X)
-# > 策略组：Polymarket
-# > 建议搭配日本、韩国或英国等支持地区的节点
+// ✨━━━━━━━━━━━━━━━━━━━━━ Polymarket专项分流规则 ━━━━━━━━━━━━━━━━━━━━━✨
+//
+//              ⋆｡˚         ⋆ 
+//          .        /\_/\      ˚✧
+//               ~~~( •₋• )~~~ 
+//         ⋆      ฅ/  By  \ฅ    ˚
+//                 · 喵大人 ·       ⋆
+//            ˚✧       ⋆      ○
+//
+//   2026年2月9日————创建专项分流规则（喵大人&Emily）
+//   2026年2月9日————逐行注释域名含义（Emily）
+//   2026年2月9日————美化代码界面（喵大人）
 
-# --- 官方主域与 API ---
+// ✨························ [ 官方主域 ] ···························✨
+
 HOST-SUFFIX, polymarket.com, Polymarket
 HOST-SUFFIX, polymarket.market, Polymarket
 
-# --- 核心交易服务 (CLOB) ---
+
+// ✨························ [ 交易服务 ] ···························✨
+
 HOST, gamma-api.polymarket.com, Polymarket
 HOST, clob.polymarket.com, Polymarket
 HOST, notifications.polymarket.com, Polymarket
 
-# --- Web3 & 登录基础设施 ---
-# Polymarket 常用 Magic.link 进行邮箱登录鉴权
+// ✨······················ [ Web3 & 登录 ] ·························✨
+
+// Polymarket 常用 Magic.link 进行邮箱登录鉴权
 HOST-SUFFIX, magic.link, Polymarket
-# 底层 API 关键词匹配
+// 底层 API 关键词匹配
 HOST-KEYWORD, polymarket-api, Polymarket
 
-# --- 关键词匹配 (增强覆盖) ---
+// ✨····················· [ 关键词增强覆盖 ] ·························✨
+
 HOST-KEYWORD, polymarket, Polymarket
+
+// ✨━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━✨
