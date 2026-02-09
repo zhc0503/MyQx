@@ -13,108 +13,108 @@
 // 2026年1月9日————创建文件，针对X建立专项分流规则
 // 2026年1月31日————域名是自己反复抓包测试得出的
 // 2026年1月31日————优化代码界面，逐行注释域名含义
+// 2026年2月9日————优化注释内容
 
 // 🔭·························· [ 核心 ] ·····························🔭
 
-// X (Twitter) 主域名
+// 主域名
 HOST-SUFFIX,twitter.com,TwitterX
-// X (Twitter) 官方短域名
+// 官方短域名
 HOST-SUFFIX,x.com,TwitterX
-// X (Twitter) 移动端域名
-HOST-SUFFIX,mobile.twitter.com,TwitterX
-// X (Twitter) 静态资源
-HOST-SUFFIX,twimg.com,TwitterX
-// X (Twitter) 开发者平台
-HOST-SUFFIX,dev.twitter.com,TwitterX
-// X (Twitter) 状态页面
-HOST-SUFFIX,status.twitter.com,TwitterX
-// X 短链接服务
+// 短链接服务
 HOST-SUFFIX,t.co,TwitterX
-
+// 移动端域名
+HOST-SUFFIX,mobile.twitter.com,TwitterX
+// 静态资源
+HOST-SUFFIX,twimg.com,TwitterX
+// 开发者平台
+HOST-SUFFIX,dev.twitter.com,TwitterX
+// 状态页面
+HOST-SUFFIX,status.twitter.com,TwitterX
 
 // 🔭·························· [ API ] ·····························🔭
 
-// X (Twitter) API服务
+// API服务
 HOST-SUFFIX,api.twitter.com,TwitterX
-// X (Twitter) 流式API
+// 流式API
 HOST-SUFFIX,stream.twitter.com,TwitterX
-// X (Twitter) 上传API
+// 上传API
 HOST-SUFFIX,upload.twitter.com,TwitterX
-// X (Twitter) 广告API
+// 广告API
 HOST-SUFFIX,ads-api.twitter.com,TwitterX
-// X (Twitter) 分析API
+// 分析API
 HOST-SUFFIX,analytics.twitter.com,TwitterX
-// X (Twitter) 企业API
+// 企业API
 HOST-SUFFIX,enterprise.twitter.com,TwitterX
 
 // 🔭·························· [ 媒体 ] ·····························🔭
 
-// X (Twitter) 图片服务
+// 图片服务
 HOST-SUFFIX,pbs.twimg.com,TwitterX
-// X (Twitter) 视频服务
+// 视频服务
 HOST-SUFFIX,video.twimg.com,TwitterX
-// X (Twitter) 直播服务
+// 直播服务
 HOST-SUFFIX,pscp.tv,TwitterX
-// X (Twitter) Periscope直播
+// Periscope直播
 HOST-SUFFIX,periscope.tv,TwitterX
-// X (Twitter) 视频直播CDN
+// 视频直播CDN
 HOST-SUFFIX,live-video.net,TwitterX
-// X (Twitter) 媒体编码服务
+// 媒体编码服务
 HOST-SUFFIX,encode.twitter.com,TwitterX
 
 // 🔭·························· [ 消息 ] ·····························🔭
 
-// X (Twitter) 私信服务
+// 私信服务
 HOST-SUFFIX,direct.twitter.com,TwitterX
-// X (Twitter) 推送服务
+// 推送服务
 HOST-SUFFIX,push.twitter.com,TwitterX
-// X (Twitter) 消息队列服务
+// 消息队列服务
 HOST-SUFFIX,queue.twitter.com,TwitterX
 
 // 🔭·························· [ 账户 ] ·····························🔭
 
-// X (Twitter) 账户服务
+// 账户服务
 HOST-SUFFIX,account.twitter.com,TwitterX
-// X (Twitter) 登录服务
+// 登录服务
 HOST-SUFFIX,login.twitter.com,TwitterX
-// X (Twitter) 注册服务
+// 注册服务
 HOST-SUFFIX,signup.twitter.com,TwitterX
-// X (Twitter) 验证服务
+// 验证服务
 HOST-SUFFIX,verify.twitter.com,TwitterX
-// X (Twitter) 密码重置
+// 密码重置
 HOST-SUFFIX,password.twitter.com,TwitterX
 
 // 🔭·························· [ 广告 ] ·····························🔭
 
-// X (Twitter) 广告服务
+// 广告服务
 HOST-SUFFIX,ads.twitter.com,TwitterX
-// X (Twitter) 广告平台
+// 广告平台
 HOST-SUFFIX,ads-marketing.twitter.com,TwitterX
-// X (Twitter) 广告分析
+// 广告分析
 HOST-SUFFIX,ads-analytics.twitter.com,TwitterX
-// X (Twitter) 广告创意
+// 广告创意
 HOST-SUFFIX,ads-creative.twitter.com,TwitterX
 
 // 🔭·························· [ 开发者 ] ···························🔭
 
-// X (Twitter) 开发者文档
+// 开发者文档
 HOST-SUFFIX,developer.twitter.com,TwitterX
-// X (Twitter) 应用管理
+// 应用管理
 HOST-SUFFIX,apps.twitter.com,TwitterX
-// X (Twitter) 开发者工具
+// 开发者工具
 HOST-SUFFIX,devices.twitter.com,TwitterX
-// X (Twitter) 字体资源
+// 字体资源
 HOST-SUFFIX,twemoji.com,TwitterX
 
 // 🔭·························· [ 第三方 ] ···························🔭
 
-// X (Twitter) CDN服务
+// CDN服务
 HOST-SUFFIX,cdn.twitter.com,TwitterX
-// X (Twitter) 内容分发网络
+// 内容分发网络
 HOST-SUFFIX,twitter.cdn.cloudflare.net,TwitterX
-// X (Twitter) 字体CDN
+// 字体CDN
 HOST-SUFFIX,twemoji.maxcdn.com,TwitterX
-// X (Twitter) 图片CDN
+// 图片CDN
 HOST-SUFFIX,twimg.edgesuite.net,TwitterX
 
 // 🔭·························· [ 关键词 ] ···························🔭
@@ -126,11 +126,11 @@ HOST-KEYWORD,x.com,TwitterX
 
 // 🔭·························· [ IP地址 ] ···························🔭
 
-// X (Twitter) IPv4地址段
+// IPv4地址段
 IP-CIDR,104.244.42.0/24,TwitterX
-// X (Twitter) IPv4地址段
+// IPv4地址段
 IP-CIDR,104.244.43.0/24,TwitterX
-// X (Twitter) IPv4地址段
+// IPv4地址段
 IP-CIDR,199.96.56.0/21,TwitterX
 
 // 🔭━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━🔭
