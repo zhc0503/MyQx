@@ -7,16 +7,19 @@
 //                 · 喵大人 ·       ⋆
 //            ˚✧       ⋆      ○
 
-// 参考：Gemini & DeepSeek & 抓包
 
 // 更新：
-// 2026年2月6日————新建专项分流规则
-// 2026年1月31日————优化代码界面，逐行注释域名含义
-// 2026年2月6日————
+// 
+// 2026年1月9日————建立规则，Apple Intellience 调用 ChatGPT 时需要的代理规则
+// 2026年1月9日————优化规则，增加全面注释
+// 2026年1月9日————发现问题，如果全方位代理，那么iCould会占用大量流量上传照片文件。
+// 2026年1月8日————放弃使用，规则设置好之后近一个月时间，几乎从未使用过这个功能，权衡之后决定放弃使用Apple AI，决定性的因素是Gemini的语音聊天功能已经足够好用，不需要Siri的辅助了。
+// 
 
 // 👻·························· [ 核心 ] ·····························👻
 
-HOST-SUFFIX,gateway.icloud.com, AppleIntelligence  # iCloud网关服务，可能用于Apple AI相关服务的数据传输
+// HOST-SUFFIX,gateway.icloud.com, AppleIntelligence  # iCloud网关服务，可能用于Apple AI相关服务的数据传输
+// iCould会占用大量流量上传照片文件
 HOST-SUFFIX,apps.mzstatic.com, AppleIntelligence   # 苹果应用静态资源CDN，可能承载AI应用相关资源
 HOST-SUFFIX,apple-relay.apple.com, AppleIntelligence   # 苹果中继服务，可能用于AI服务的请求转发
 HOST-SUFFIX,apple-relay.fastly-edge.com, AppleIntelligence  # 通过Fastly CDN的苹果中继服务，优化AI服务访问
