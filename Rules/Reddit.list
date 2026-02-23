@@ -12,6 +12,7 @@
 // 2026年2月6日————
 
 // 🔭·························· [ 核心 ] ·····························🔭
+
 // Reddit主域名
 HOST-SUFFIX,reddit.com,Reddit
 // Reddit媒体域名
@@ -28,6 +29,7 @@ HOST-SUFFIX,redditpoll.com,Reddit
 HOST-SUFFIX,redditgifts.com,Reddit
 
 // 🔭·························· [ API ] ·····························🔭
+
 // Reddit API服务
 HOST-SUFFIX,api.reddit.com,Reddit
 // Reddit OAuth认证
@@ -38,6 +40,7 @@ HOST-SUFFIX,gql.reddit.com,Reddit
 HOST-SUFFIX,wss.reddit.com,Reddit
 
 // 🔭·························· [ 媒体 ] ·····························🔭
+
 // Reddit视频服务
 HOST-SUFFIX,v.redd.it,Reddit
 // Reddit直播服务
@@ -54,6 +57,7 @@ HOST-SUFFIX,styles.redditmedia.com,Reddit
 HOST-SUFFIX,emoji.redditmedia.com,Reddit
 
 // 🔭·························· [ 子域名 ] ···························🔭
+
 // Reddit旧版界面
 HOST-SUFFIX,old.reddit.com,Reddit
 // Reddit新版界面
@@ -72,6 +76,7 @@ HOST-SUFFIX,about.reddit.com,Reddit
 HOST-SUFFIX,careers.reddit.com,Reddit
 
 // 🔭·························· [ 第三方 ] ···························🔭
+
 // Reddit CDN服务
 HOST-SUFFIX,reddit.map.fastly.net,Reddit
 // Reddit Fastly CDN
@@ -84,10 +89,12 @@ HOST-SUFFIX,analytics.reddit.com,Reddit
 HOST-SUFFIX,ads.reddit.com,Reddit
 
 // 🔭·························· [ 关键词 ] ···························🔭
+
 // 包含reddit关键词的域名
 HOST-KEYWORD,reddit,Reddit
 
 // 🔭·························· [ IP地址 ] ···························🔭
+
 // Reddit IPv4地址段（示例）
 IP-CIDR,151.101.0.0/16,Reddit
 // Reddit IPv4地址段（示例）
