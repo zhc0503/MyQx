@@ -102,8 +102,8 @@ IP-CIDR,151.101.64.0/19,Reddit
 // Reddit IPv4地址段（示例）
 IP-CIDR,199.232.0.0/16,Reddit
 // Reddit IPv6地址段（示例）
-IP-CIDR6,2a04:4e42::/32,Reddit
+// IP-CIDR6,2a04:4e42::/32,Reddit
 // Reddit IPv6地址段（示例）
-IP-CIDR6,2a04:4e40::/32,Reddit
+// IP-CIDR6,2a04:4e40::/32,Reddit
 
 // 👻━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━👻
