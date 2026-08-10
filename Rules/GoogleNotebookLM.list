@@ -1,4 +1,4 @@
-// 👻━━━━━━━━━━━━━━━━━ GoogleNotebookLM专项分流规则 ━━━━━━━━━━━━━━━━━━👻
+// 👻━━━━━━━━━━━━━━━━━ GoogleNotebookLLM专项分流规则 ━━━━━━━━━━━━━━━━━━👻
 // 
 //              ⋆｡˚         ⋆     
 //          .        /\_/\      ˚✧
@@ -14,12 +14,12 @@
 // 👻·························· [ 核心 ] ·····························👻
 
 // AI笔记应用主域名
-HOST-SUFFIX,notebooklm.google.com, GoogleNotebookLM
+HOST-SUFFIX,notebooklm.google.com, GoogleNotebookLLM
 
 // 通用域名匹配，覆盖所有notebooklm.google相关子域名
-HOST-SUFFIX,notebooklm.google, GoogleNotebookLM
+HOST-SUFFIX,notebooklm.google, GoogleNotebookLLM
 
 // 匹配所有包含"notebooklm"关键字的域名，包括但不限于Google的NotebookLM服务
-HOST-KEYWORD, notebooklm, GoogleNotebookLM
+HOST-KEYWORD, notebooklm, GoogleNotebookLLM
 
 // 👻━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━👻
